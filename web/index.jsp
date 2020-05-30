@@ -16,7 +16,9 @@
         
         <form action="recibir.do" method="POST">
             DUI:<input type="text" name="txtDui" value="" /><br>
+            Apellidos:<input type="text" name="txtApellidos" value="" /><br>
+            Nombres:<input type="text" name="txtNombres" value="" /><br>
+            <input type="submit" value="Registrar Nueva Persona" />
         </form>
-        <input type="text" name="txtDui" value="" />
     </body>
 </html>
